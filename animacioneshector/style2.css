@@ -1,0 +1,561 @@
+.cajaarrib{
+    width: 350px; 
+    color: #373737;
+    text-shadow: 1px 1px 3px #242424;
+    background-color: #DCD0C0;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.cajaabaj {
+    background-color: #DCD0C0;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 40px 70px 40px 70px;
+    margin: 20px 20px 20px 20px;
+    position:absolute;
+    top:60px;
+	left:3px;
+    height:220px;
+    width:175px;   
+    box-shadow: 5px 5px 10px rgb(121, 103, 51);
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.elemento {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    animation: spin 2s linear infinite;
+}
+
+.cajacentr{
+    width: 350px;
+    color: #373737;
+    text-shadow: 1px 1px 3px #242424;
+    background-color: #DCD0C0;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.cajacentr2{
+    background-color: #DCD0C0;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 40px 70px 40px 70px;
+    margin: 20px 20px 20px 20px;
+    position:absolute;
+    top:60px;
+	left:338px;
+    height:220px;
+    width:175px;
+    box-shadow: 5px 5px 10px rgb(121, 103, 51);
+    font-style: italic;
+
+}
+
+@keyframes bounce { 0%, 100% { transform: translateY(-25%); } 50% { transform: translateY(0%); } } 
+
+
+.giro{
+    
+        width: 100px;
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+        animation: bounce 2s linear infinite;
+
+}
+.cajaderech{
+    width: 350px;
+    color: #373737;
+    text-shadow: 1px 1px 3px #242424;
+    background-color: #DCD0C0;
+    background-position: top center;
+    background-repeat: no-repeat; 
+}
+
+.cajaderech2{
+    background-color: #DCD0C0;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 40px 70px 40px 70px;
+    margin: 20px 20px 20px 20px;
+    position:absolute;
+    top:60px;
+	left:674px;
+    height:220px;
+    width:175px;
+    box-shadow: 5px 5px 10px rgb(121, 103, 51);
+    font-style: italic;
+}
+
+@keyframes ping { 75%, 100% { transform: scale(2); opacity: 0; } } 
+
+
+.ping{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    animation: ping 2s linear infinite
+
+}
+.cajaultim{
+    width: 350px;
+    color: #373737;
+    text-shadow: 1px 1px 3px #242424;
+    background-color: #DCD0C0;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.cajaultim2{
+    background-color: #DCD0C0;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 40px 70px 40px 70px;
+    margin: 20px 20px 20px 20px;
+    position:absolute;
+    top:60px;
+    left:1010px;
+    height:220px;
+    width:175px;
+    box-shadow: 5px 5px 10px rgb(121, 103, 51);
+    font-size: 1.08rem;
+    font-style: italic;
+
+}
+
+
+@keyframes scale { 0% { transform: scale(1); } 100% { transform: scale(1.5); } }
+
+.escala{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 0, 0);
+        animation: scale 2s linear infinite
+        
+
+}
+
+.cajaabaj1{
+    width: 350px;
+    color: #373737;
+    text-shadow: 1px 1px 3px #242424;
+    background-color: #DCD0C0;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.cajaabaj2{
+    background-color: #DCD0C0;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 40px 70px 40px 70px;
+    margin: 20px 20px 20px 20px;
+    position:absolute;
+    top: 500px;
+	left: 10px;
+    height:220px;
+    width:175px;
+    box-shadow: 5px 5px 10px rgb(121, 103, 51);
+    font-size: 1.05rem;
+    font-style: italic;
+
+}
+
+.sinanimacion{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    animation: none;
+    
+}
+
+.cajacentr1{
+    width: 350px;
+    color: #373737;
+    text-shadow: 1px 1px 3px #242424;
+    background-color: #DCD0C0;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.cajacentr1_1{
+    background-color: #DCD0C0;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 40px 70px 40px 70px;
+    margin: 20px 20px 20px 20px;
+    position:absolute;
+    top: 500px;
+	left:338px;
+    height:220px;
+    width:175px;
+    text-decoration:underline #bea558;
+    box-shadow: 5px 5px 10px rgb(121, 103, 51);
+    font-size: 1.05rem;
+    font-style: italic;
+
+}
+
+
+.anireversa{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    animation: spin 2s linear infinite;
+    animation-direction: reverse;
+}
+
+
+.cajaderech1{
+    width: 350px;
+    color: #373737;
+    text-shadow: 1px 1px 3px #242424;
+    background-color: #DCD0C0;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.cajaderech1-5{
+    background-color: #DCD0C0;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 40px 70px 40px 70px;
+    margin: 20px 20px 20px 20px;
+    position:absolute;
+    top: 500px;
+	left:674px;
+    height:220px;
+    width:175px;
+    box-shadow: 5px 5px 10px rgb(121, 103, 51);
+    font-style: italic;
+
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1); 
+    }
+}
+
+.anizoom{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    animation: zoom 2s ease-in-out infinite;
+}
+
+
+.cajaultim1{
+    width: 350px;
+    color: #373737;
+    text-shadow: 1px 1px 3px #242424;
+    background-color: #DCD0C0;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.cajaultim1-5{
+    background-color: #DCD0C0;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 40px 70px 40px 70px;
+    margin: 20px 20px 20px 20px;
+    position:absolute;
+    top: 500px;
+	left:1010px;
+    height:220px;
+    width:175px;
+    box-shadow: 5px 5px 10px rgb(121, 103, 51);
+    font-size: 1.10rem;
+    font-style: italic;
+
+}
+
+
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0); /* Posición inicial */
+    }
+    50% {
+        transform: translateX(200px); /* Se desliza hacia la derecha */
+    }
+    100% {
+        transform: translateX(0); /* Vuelve a la posición inicial */
+    }
+
+}
+
+
+.deslizamiento{
+    
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 0, 0);
+        animation: slide 2s ease-in-out infinite;
+    }
+
+    .cajaabaj2-0{
+        width: 350px;
+        color: #373737;
+        text-shadow: 1px 1px 3px #242424;
+        background-color: #DCD0C0;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    
+    .cajaabaj2-5{
+        background-color: #DCD0C0;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        padding: 40px 70px 40px 70px;
+        margin: 20px 20px 20px 20px;
+        position:absolute;
+        top: 850px;;
+        left:2px;
+        height:220px;
+        width:175px;
+        box-shadow: 5px 5px 10px rgb(121, 103, 51);
+        font-size: 1.15rem;
+        font-style: italic;
+    
+    }
+
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1; 
+    }
+    50% {
+        opacity: 0; 
+    }
+}
+
+    .dezvanecimiento{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    animation: fade 3s ease-in-out infinite;
+    }
+
+
+    .cajacentr2-0{
+        width: 350px;
+        color: #373737;
+        text-shadow: 1px 1px 3px #242424;
+        background-color: #DCD0C0;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    
+    .cajacentr2-5{
+        background-color: #DCD0C0;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        padding: 40px 70px 40px 70px;
+        margin: 20px 20px 20px 20px;
+        position:absolute;
+        top:850px;
+        left:338px;
+        height:220px;
+        width:175px;
+        box-shadow: 5px 5px 10px rgb(121, 103, 51);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.03rem;
+        font-style: italic;
+    
+    }
+
+
+
+
+    @keyframes slideAndFade {
+        0% {
+            opacity: 0;
+            transform: translateX(-100px); /* Empieza hacia la izquierda y desvanecido */
+        }
+        50% {
+            opacity: 1;
+            transform: translateX(0); /* Aparece en el centro */
+        }
+        100% {
+            opacity: 0;
+            transform: translateX(100px); /* Se desvanece moviéndose hacia la derecha */
+        }
+    }
+
+
+    .arroz{
+    
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 0, 0);
+        animation: slideAndFade 3s ease-in-out infinite;
+
+
+    }
+
+
+
+
+    .cajaderech2-0{
+        width: 350px;
+        color: #373737;
+        text-shadow: 1px 1px 3px #242424;
+        background-color: #DCD0C0;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    
+    .cajaderech2-5{
+        background-color: #DCD0C0;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        padding: 40px 70px 40px 70px;
+        margin: 20px 20px 20px 20px;
+        position:absolute;
+        top:850px;
+        left:674px;
+        height:220px;
+        width:175px;
+        box-shadow: 5px 5px 10px rgb(121, 103, 51);
+        font-size: 0.95rem;
+        font-style: italic;
+    
+    }
+
+
+    @keyframes latido {
+        0%, 100% {
+            transform: scale(1); /* Tamaño normal */
+        }
+        50% {
+            transform: scale(1.1); /* Aumenta de tamaño */
+        }
+    }
+
+    .latido1{
+    
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 0, 0);
+        animation: latido 1s ease-in-out infinite;
+
+    }
+
+
+    .cajaultim2-0{
+        width: 350px;
+        color: #373737;
+        text-shadow: 1px 1px 3px #242424;
+        background-color: #DCD0C0;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    
+    .cajaultim2-5{
+        background-color: #DCD0C0;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        padding: 40px 70px 40px 70px;
+        margin: 20px 20px 20px 20px;
+        position:absolute;
+        top: 850px;
+        left:1010px;
+        height:220px;
+        width:175px;
+        box-shadow: 5px 5px 10px rgb(121, 103, 51);
+        font-size: 1.06rem;
+        font-weight:550;
+        font-style: italic;
+    
+    }
+    
+
+    @keyframes goma  {
+        0% {
+            transform: scale(1);
+        }
+        30% {
+            transform: scaleX(1.25) scaleY(0.75);
+        }
+        40% {
+            transform: scaleX(0.75) scaleY(1.25);
+        }
+        50% {
+            transform: scaleX(1.15) scaleY(0.85);
+        }
+        65% {
+            transform: scaleX(0.95) scaleY(1.05);
+        }
+        75% {
+            transform: scaleX(1.05) scaleY(0.95);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .anigoma{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 0, 0);
+        animation: goma  1s ease-in-out infinite;
+
+    }
+
+
+    .cajaabaj3-0{
+        width: 350px;
+        color: #373737;
+        text-shadow: 1px 1px 3px #242424;
+        background-color: #DCD0C0;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    
+    .cajaabaj3-5{
+        background-color: #DCD0C0;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        padding: 40px 70px 40px 70px;
+        margin: 20px 20px 20px 20px;
+        position:absolute;
+        top: 1200px;
+        left:2px;
+        height:220px;
+        width:175px;
+        box-shadow: 5px 5px 10px rgb(121, 103, 51);
+        font-size: 1.06rem;
+        font-style:italic;
+    }
+    @keyframes sacudida {
+        0%, 100% { transform: translateX(0); }
+        10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+        20%, 40%, 60%, 80% { transform: translateX(10px); }
+    }
+
+    .sacudida1{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 0, 0);
+        animation: sacudida  1s ease-in-out infinite;
+
+    }
+
+
